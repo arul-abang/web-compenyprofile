@@ -54,21 +54,20 @@ button {
   background-size: cover;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .boxfoto {
-  background-color: #04818d;
-  height: 50px;
-  text-align: center;
-  width: 400px;
-  bottom: 40px;
-  border-radius: 30px;
+  background-color: bisque;
+  width: 800px;
+  margin: 50px auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 10px;
+}
+.gambar {
+  width: 100%;
+  padding: 50px;
 }
 
-.layar2 .boxfoto .gambar img {
-  height: 100px;
-  display: flex;
-  padding: 5px;
+.boxfoto img {
+  width: 100%;
 }
