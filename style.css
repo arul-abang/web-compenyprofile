@@ -3,32 +3,28 @@
   padding: 0px;
   font-family: sans-serif;
 }
-header {
-  background-color: #f0f6f7;
-  width: 100%;
-  height: 70px;
-  position: fixed;
-  opacity: 0.6;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
-}
 
 .logo {
   height: 50px;
 }
 nav {
+  background-color: rgb(202, 231, 203);
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  opacity: 0.9;  
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  margin-right: 30px;
 }
-nav a {
-  margin-left: 50px;
+ ul a {
+  margin: 40px;
   font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: rgba(184, 8, 8, 0.788);
   font-weight: bold;
+  flex-grow: 1;
+  flex-basis: 200;
 }
 
 .layar1 {
@@ -40,7 +36,7 @@ nav a {
   align-items: center;
 }
 .text-iklan {
-  color: rgb(247, 238, 238);
+  color: rgb(250, 253, 253);
   font-size: 30px;
   text-align: center;
 }
